@@ -330,9 +330,17 @@
    breakpoint: 768, // ブレイクポイントを指定
     settings: {
      slidesToShow: 1,
+     centerMode: false, // 前後スライドを部分非表示
      centerPadding: "0%", // 両端の見切れるスライド幅
      padding: "0%", // スライダーの左右の余白
      gap: 0, // スライド間の余白/
+     autoplaySpeed: 4000, // 再生速度（ミリ秒設定） 1000ミリ秒=1秒
+     infinite: true, // 無限スライド
+     type: "loop", // ループ
+     pauseOnHover: false, // カーソルが乗ってもスクロールを停止させない
+     pauseOnFocus: false, // 矢印をクリックしてもスクロールを停止させない
+     interval: 2000, // 自動再生の間隔
+     speed: 1000, // スライダーの移動時間
     },
    },
  ]
